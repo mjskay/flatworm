@@ -1,15 +1,12 @@
-Package: tidybayes
-Title: Tidy Data for MCMC/Bayesian Samplers
+Package: flatworm
+Title: Flattened detrended QQ plots (flatworm plots)
 Version: 0.9.0.000001
 Date: 2015-10-28
 Authors@R: c(person("Matthew", "Kay", role = c("aut", "cre"),
     email = "mjskay@umich.edu"))
 Maintainer: Matthew Kay <mjskay@umich.edu>
-Description: Facilitates composing data for and gathering samples from
-    Bayesian samplers (JAGS, Stan, ...) in a tidy data format. Also provides
-    miscellaneous functions helpful for analysing tidy samples from Bayesian models, such 
-    as estimates and intervals, and a ggplot2 function for easy eye plots of posteriors
-    (aka raindrop plots or violin plots).
+Description: Provides worm plots and flattened worm plots ("flatworm" plots),
+    detrended QQ plots for regression diagnostics.
 Depends:
     R (>= 2.10)
 Imports:
@@ -40,6 +37,6 @@ Enhances:
     rethinking
 Remotes: rmcelreath/rethinking
 License: GPL (>= 2)
-BugReports: https://github.com/mjskay/tidybayes/issues/new
-URL: https://github.com/mjskay/tidybayes
+BugReports: https://github.com/mjskay/flatworm/issues/new
+URL: https://github.com/mjskay/flatworm
 RoxygenNote: 5.0.1
